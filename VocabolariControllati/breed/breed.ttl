@@ -234,6 +234,12 @@
   dcat:keyword "breed"@en, "razza"@it;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> .
 
+<https://w3id.org/leo/data/private-organization/00944701002> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "identificatore" ;
+    foaf:name "nomeit"@it, 
+              "nomeen"@en .
+
 <https://w3id.org/leo/controlled-vocabulary/breed/breed-1> a skos:Concept, animal:Breed;
   skos:inScheme <https://w3id.org/leo/controlled-vocabulary/breed>;
   skos:notation "-1";
