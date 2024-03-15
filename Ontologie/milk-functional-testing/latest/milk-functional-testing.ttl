@@ -514,7 +514,7 @@
                                                                      "This is the distribution in RDF/Turtle of milk functional testings ontology"@en ;
                                                         rdfs:label "Distribuzione RDF/Turtle ontologia Controlli Funzionali sul Latte"@it ,
                                                                    "RDF/Turtle distribution of Milk Functional Testing Ontology"@en ;
-                                                        <http://www.w3.org/ns/dcat#accessURL> <https://www.leo-project.it/Ontologie/milk-functional-testing/latest> ;
+                                                        <http://www.w3.org/ns/dcat#accessURL> <https://github.com/Bluarancio/Leo-OpenData/tree/master/Ontologie/milk-functional-testing/latest> ;
                                                         <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/Bluarancio/Leo-OpenData/master/Ontologie/milk-functional-testing/latest/milk-functional-testing.ttl> .
 
 
@@ -531,7 +531,7 @@
                                                                   "This is the distribution in RDF/XML of milk functional testings ontology"@en ;
                                                      rdfs:label "Distribuzione RDF/XML ontologia Controlli Funzionali sul Latte"@it ,
                                                                 "RDF/XML distribution of Milk Functional Testing Ontology"@en ;
-                                                     <http://www.w3.org/ns/dcat#accessURL> <https://www.leo-project.it/Ontologie/milk-functional-testing/latest> ;
+                                                     <http://www.w3.org/ns/dcat#accessURL> <https://github.com/Bluarancio/Leo-OpenData/tree/master/Ontologie/milk-functional-testing/latest> ;
                                                      <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/Bluarancio/Leo-OpenData/master/Ontologie/milk-functional-testing/latest/milk-functional-testing.rdf> .
 
 
