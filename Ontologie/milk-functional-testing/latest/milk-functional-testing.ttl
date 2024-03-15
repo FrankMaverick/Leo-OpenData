@@ -297,6 +297,12 @@
 #    Classes
 #################################################################
 
+<https://w3id.org/leo/data/private-organization/00944701002> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "identificatore" ;
+    foaf:name "nomeit"@it, 
+              "nomeen"@en .
+
 ###  https://w3id.org/italia/onto/ADMS/SemanticAsset
 <https://w3id.org/italia/onto/ADMS/SemanticAsset> rdf:type owl:Class .
 
