@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 import pytest
 
 re_url = re.compile(r'[<"](https://github.*|https://raw.githubusercontent[^>"]*)[>"]')
-root_dirs = ["assets/controlled-vocabularies/", "assets/ontologies/", "assets/schemas/"]
+root_dirs = ["Ontologie", "VocabolariControllati"]
 
 def get_urls(root_dirs):
     """
