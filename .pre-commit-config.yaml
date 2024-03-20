@@ -5,7 +5,7 @@ repos:
   - id: check-repo-structure
     args: ["assets/controlled-vocabularies/", "assets/ontologies/", "assets/schemas/"]
   - id: check-filename-format
-    args: ["assets/controlled-vocabularies/", "assets/ontologies/", "assets/schemas/"]
+    files: ^assets/.*
   - id: check-filenames-match-uri
     args: ["assets/controlled-vocabularies/", "assets/ontologies/", "assets/schemas/"]
   - id: check-filenames-match-directories
