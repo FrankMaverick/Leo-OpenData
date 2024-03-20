@@ -111,8 +111,6 @@ def test_url():
         for error in errors:
             print(error)
         assert False, "\n".join(errors)
-    else:
-        print("URL test completed successfully!")
 
 # Esegui il test
 test_url()
