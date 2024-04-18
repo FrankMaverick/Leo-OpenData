@@ -36,3 +36,8 @@ Oltre alle ontologie, il presente repository include inoltre una serie di vocabo
 9. [**Stato del capo**](https://w3id.org/leo/controlled-vocabulary/farm-animal-status): è il vocabolario controllato dello stato dell'animale d'allevamento.
 10. [**Famiglie Zootecniche**](https://w3id.org/leo/controlled-vocabulary/livestock-family): è il vocabolario controllato delle famiglie zootecniche (equidi, bovidi, ecc.).
 11. [**Frequenze del controllo funzionale del latte** ](https://w3id.org/leo/controlled-vocabulary/milk-functional-testing-frequencies): è il vocabolario controllato delle frequenze con cui vengono eseguiti i controlli funzionali sul latte
+
+
+Maintainers:
+-	Mario Rossi: git ({mariorossi1234}) – email ({mariorossi1234@mail.it})
+-	Giovanni Verdi: git ({giovanniverdi1234}) – email ({giovanniverdi1234@mail.it})
