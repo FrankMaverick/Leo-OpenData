@@ -38,6 +38,7 @@ Oltre alle ontologie, il presente repository include inoltre una serie di vocabo
 11. [**Frequenze del controllo funzionale del latte** ](https://w3id.org/leo/controlled-vocabulary/milk-functional-testing-frequencies): è il vocabolario controllato delle frequenze con cui vengono eseguiti i controlli funzionali sul latte
 
 
-Maintainers:
--	Mario Rossi: git ({mariorossi1234}) – email ({mariorossi1234@mail.it})
--	Giovanni Verdi: git ({giovanniverdi1234}) – email ({giovanniverdi1234@mail.it})
+##Maintainers:
+-	Mario Rossi: git (mariorossi1234) – email (mariorossi1234@mail.it)
+-	Giovanni Verdi: git (giovanniverdi1234) – email (giovanniverdi1234@mail.it)
+-	Francesco Cardinale: git(FrankMaverick) - email (frankycardinale@gmail.com)
