@@ -41,3 +41,4 @@ Oltre alle ontologie, il presente repository include inoltre una serie di vocabo
 ## Maintainers
 -	Mario Rossi: git (mariorossi12345) - email (mariorossi12345@mail.it)
 -	Giovanni Verdi: git (giovanniverdi12345) - email (giovanniverdi1234@mail.it)
+-	Francesco Cardinale: git (FrankMaverick) - email (frankycardinale@gmail.com)
