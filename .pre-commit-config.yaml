@@ -1,38 +1,30 @@
-repos:
-- repo: https://github.com/FrankMaverick/dati-semantic-cookiecutter
-  rev: 4f268eddac182d59e3da44c5577ec466764bb340
-  hooks:
-  - id: check-repo-structure
-    args: ["Ontologie/", "VocabolariControllati/"]
-  - id: check-filename-format
-    args: ["Ontologie/", "VocabolariControllati/"]
-  - id: check-filenames-match-uri
-    args: ["Ontologie/", "VocabolariControllati/"]
-  - id: check-filenames-match-directories
-    args: ["Ontologie/", "VocabolariControllati/"]
-  - id: check-supported-files
-    args: ["Ontologie/", "VocabolariControllati/"]
-  - id: check-versioning-pattern
-    args: ["Ontologie/", "VocabolariControllati/"]
-
 #
 # Semantic checks.
 #
-- repo: https://github.com/teamdigitale/json-semantic-playground
-  rev: 0b4ad4cc883a49878fdfd4539e694ae56b041e29
+- repo: https://github.com/FrankMaverick/json-semantic-playground
+  rev: 1f888b3c5b2e2150c87298d712e0b0c19b4c43fb
   hooks:
-  - id: validate-csv
-    files: >-
-      ^assets\/controlled-vocabularies/.*\.csv
-  - id: validate-oas-schema
-    files: >-
-      ^assets\/schemas\/.*.oas3.yaml
-  - id: validate-turtle
-    files: >-
-      ^assets\/ontologies\/[^\/]+\/latest\/.*\.ttl
-  - id: validate-turtle
-    files: >-
-      ^assets\/controlled-vocabularies\/.*\.ttl
-  - id: validate-turtle
-    files: >-
-      ^assets\/schemas\/.*\.ttl
+    - id: validate-turtle
+      files: ^assets/.*\.ttl$
+    - id: validate-oas-schema
+      files: ^assets/.*\.schema.yaml
+    - id: validate-openapi-schema
+      files: ^assets/.*\.oas3.yaml
+    - id: validate-directory-versioning
+      files: ^assets/.*\.ttl
+    - id: validate-csv
+      files: ^assets/.*\.csv
+    - id: validate-repo-structure
+      files: ^assets\/.*
+    - id: validate-filename-format
+      files: ^assets\/.*
+    - id: validate-filename-match-uri
+      files: ^assets\/.*\.ttl
+    - id: validate-filename-match-directory
+      files: ^assets\/.*
+    - id: validate-directory-versioning-pattern
+      files: ^assets\/.*\.ttl
+    - id: validate-mandatory-files-presence
+      files: ^assets\/.*
+    - id: validate-utf8-file-encoding
+      files: ^assets\/.*
