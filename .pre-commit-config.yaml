@@ -15,7 +15,7 @@
     - id: validate-csv
       files: ^assets/.*\.csv
     - id: validate-repo-structure
-      files: ^assets\/.*
+      files: ^.*
     - id: validate-filename-format
       files: ^assets\/.*
     - id: validate-filename-match-uri
